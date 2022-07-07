@@ -200,7 +200,7 @@
     -rwxrwxrwx 1 carlos-rian carlos-rian    3 Jul  7 13:15 sidecar.txt
     ```
 
-3. Create encrypt file, confirm using **y** and enter. Arg **--armor** transforms the encrypted output to text instead of binary.
+3. Create encrypt file, confirm using **y** and enter. Arg **--armor** transforms the encrypted output to text instead of binary. 
 
     **command**
     ```sh
@@ -222,7 +222,7 @@
     Use this key anyway? (y/N) y
     ```
 
-4. List files, **note** that a new file with .asc extension was created. This file can be sent to the owner of the Private Key and he will be able to decrypt the message.
+4. List files, **note** that a new file with .asc (without --armor is .gpg) extension was created. This file can be sent to the owner of the Private Key and he will be able to decrypt the message.
 
     **command**
     ```sh
